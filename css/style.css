@@ -1,0 +1,147 @@
+body, html {
+    background: url(images/background.png);
+}
+
+
+/* Логотип */
+
+.logo img{
+    position: absolute;
+    top: 107px;
+    left: 600px;
+    width: 144px;
+    height: 78px;
+}
+
+/* Иконки */
+
+.apple img {
+    position: absolute;
+    top: 224px;
+    left: 550px;
+}
+
+
+.android img {
+    position: absolute;
+    top: 224px;
+    left: 640px;
+}
+
+.windows img {
+    position: absolute;
+    top: 224px;
+    left: 730px;
+}
+
+/* Телефон */
+
+.phone img {
+    position: absolute;
+    top: 343px;
+    left: 480px;
+    width: 384px;
+}
+
+/* Записи рядом с телефоном */
+
+.content .first{
+    position: absolute;
+    top: 618px;
+    left: 70px;
+}
+
+.content .first h1 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';
+}
+
+.content .first p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.content .second{
+    position: absolute;
+    top: 768px;
+    left: 70px;
+}
+
+.content .second h1 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';
+}
+
+
+.content .second p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+
+.content .third{
+    position: absolute;
+    top: 618px;
+    left: 890px;
+}
+
+.content .third h1 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';
+}
+
+.content .third p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.content .fourth{
+    position: absolute;
+    top: 768px;
+    left: 890px;
+}
+
+.content .fourth h1 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';
+}
+
+.content .fourth p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+/* Блок с видео */
+
+.container {
+    margin-top: 400px;
+}
+
+.container h2 {
+    position: absolute;
+    top: 995px;
+    left: 70px;
+    color: #222222;
+    font: 600 30px / 18px 'Myriad Pro';
+}
+
+.container p {
+    position: absolute;
+    left: 70px;
+    top: 1055px;
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.container ul {
+    position: absolute;
+    top: 1255px;
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.video {
+    position: absolute;
+    top: 1020px;
+    left: 749px;
+}
