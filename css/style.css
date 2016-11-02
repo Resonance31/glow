@@ -19,6 +19,13 @@ body, html {
     position: absolute;
     top: 224px;
     left: 550px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.apple img:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
 }
 
 
@@ -26,12 +33,26 @@ body, html {
     position: absolute;
     top: 224px;
     left: 640px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.android img:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
 }
 
 .windows img {
     position: absolute;
     top: 224px;
     left: 730px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.windows img:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
 }
 
 /* Телефон */
@@ -41,6 +62,40 @@ body, html {
     top: 343px;
     left: 480px;
     width: 384px;
+}
+
+.dot1 img{
+    position: absolute;
+    left: 715px;
+    top: 650px;
+    cursor: pointer;
+}
+
+.dot2 img{
+    position: absolute;
+    left: 715px;
+    top: 500px;
+    cursor: pointer;
+}
+
+.dot3 img{
+    position: absolute;
+    left: 615px;
+    top: 550px;
+    cursor: pointer;
+}
+
+.dot4 img{
+    position: absolute;
+    left: 615px;
+    top: 700px;
+    cursor: pointer;
+}
+
+.line img {
+    position: absolute;
+    top: 680px;
+    left: 740px;
 }
 
 /* Записи рядом с телефоном */
@@ -144,4 +199,362 @@ body, html {
     position: absolute;
     top: 1020px;
     left: 749px;
+}
+
+/* Контент */
+
+.test {
+    position: absolute;
+    text-align: center;
+    width: 1340px;
+    margin-top: 25px;
+}
+
+.test h2 {
+    color: #222222;
+    font: 600 30px / 18px 'Myriad Pro';
+}
+
+.test p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.test img {
+    margin-top: 50px;
+}
+
+
+.flat_design {
+    position: absolute;
+    top: 155px;
+    left: 90px;
+}
+
+.flat_design h2 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';
+}
+
+
+.flat_design p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.marketable {
+    position: absolute;
+    top: 152px;
+    left: 490px;
+}
+
+.marketable h2 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';
+}
+
+.marketable p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.edit_photos {
+    position: absolute;
+    top: 150px;
+    left: 890px;
+}
+
+.edit_photos h2 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';  
+}
+
+.edit_photos p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+
+.edit_colors {
+    position: absolute;
+    top: 455px;
+    left: 90px;
+}
+
+.edit_colors h2 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';  
+}
+
+.edit_colors p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.user_friendly {
+    position: absolute;
+    top: 452px;
+    left: 490px;
+}
+
+.user_friendly h2 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';  
+}
+
+.user_friendly p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.editable {
+    position: absolute;
+    top: 450px;
+    left: 890px;
+}
+
+.editable h2 {
+    color: #222222;
+    font: 600 24px / 18px 'Myriad Pro';  
+}
+
+.editable p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+
+
+/* Блок цены */
+
+.price {
+    margin-top: 750px;
+}
+
+.price h2 {
+    position: absolute;
+    top: 2115px;
+    left: 600px; 
+    color: #222222;
+    font: 600 30px / 18px 'Myriad Pro';
+}
+
+.price p {
+    position: absolute;
+    top: 2174px;
+    left: 15px;
+    text-align: center;
+    width: 1319px;
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+.packages img {
+    position: absolute;
+    top: 2290px;
+    left: 159px;
+}
+
+.button1 input[type="button"] {
+    position: absolute;
+    top: 2626px;
+    left: 711px;
+    width: 137px;
+    padding: 10px;
+    padding-top: 15px;
+    border: 0;
+    cursor: pointer;
+    background-color: #f27a6d; 
+    color: #ffffff;
+    font: 700 15px / 18px 'Myriad Pro';
+    text-transform: uppercase;
+}
+
+.button1 input[type="button"]:hover {
+    background-color: #f0603c;
+    transition-duration: 0.5s;
+}
+
+.button2 input[type="button"] {
+    position: absolute;
+    top: 2610px;
+    left: 214px;
+    width: 137px;
+    padding: 8px;
+    padding-top: 15px;
+    border: 0;
+    cursor: pointer;
+    background-color: #595654;
+    color: #ffffff;
+    font: 700 15px / 18px 'Myriad Pro';
+    text-transform: uppercase;
+}
+
+.button2 input[type="button"]:hover {
+    background-color: #3f3e3b;
+    transition-duration: 0.5s;
+}
+
+.button3 input[type="button"] {
+    position: absolute;
+    top: 2610px;
+    left: 464px;
+    width: 137px;
+    padding: 8px;
+    padding-top: 15px;
+    border: 0;
+    cursor: pointer;
+    background-color: #595654;
+    color: #ffffff;
+    font: 700 15px / 18px 'Myriad Pro';
+    text-transform: uppercase;
+}
+
+.button3 input[type="button"]:hover {
+    background-color: #3f3e3b;
+    transition-duration: 0.5s;
+}
+
+.button4 input[type="button"] {
+    position: absolute;
+    top: 2610px;
+    left: 964px;
+    width: 137px;
+    padding: 8px;
+    padding-top: 15px;
+    border: 0;
+    cursor: pointer;
+    background-color: #595654;
+    color: #ffffff;
+    font: 700 15px / 18px 'Myriad Pro';
+    text-transform: uppercase;
+}
+
+.button4 input[type="button"]:hover {
+    background-color: #3f3e3b;
+    transition-duration: 0.5s;
+}
+
+/* Цитата */
+
+.testimonials {
+    position: absolute;
+    top: 2727px;
+    left: 309px;
+    text-align: center;
+}
+
+.testimonials p {
+    color: #848484;
+    font: italic 24px / 32px HelveticaNeue; 
+}
+
+.testimonials .author {
+    color: #000000;
+    font: 600 16px / 24px 'Myriad Pro';
+}
+
+.testimonials img {
+    margin-top: 50px;
+}
+
+.testimonials .slide img {
+    cursor: pointer;
+}
+
+/* Форма */
+
+.subscribe {
+    position: absolute;
+    margin-top: 370px;
+}
+
+.subscribe h2 {
+    position: absolute;
+    top: 15px;
+    left: 465px;
+    color: #000000;
+    font: 600 30px / 24px 'Myriad Pro';
+}
+
+.form {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+
+input[type="email"] {
+    width: 375px;
+    height: 73px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+    font: 700 18px / 18px 'Myriad Pro';
+    background-color: rgba(0, 0, 0, 0.65);
+    text-transform: inherit;
+}
+
+input[type="submit"] {
+    width: 149px;
+    height: 79px;
+    color: #ffffff;
+    font: 700 18px / 18px 'Myriad Pro';
+    background-color: #e74c3c;
+    text-transform: inherit;
+}
+
+input[type="submit"]:hover {
+    background-color: #bb420a ;
+    transition-duration: 0.5s;
+}
+
+/* Социальные иконки */
+
+.social {
+    margin-top: 625px;
+    text-align: center;
+}
+
+.social img {
+    padding: 5px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.social img:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
+    transform: translateY(-10px);
+}
+
+.social h2 {
+    color: #000000;
+    font: 600 30px / 24px 'Myriad Pro';
+}
+
+.social p {
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+}
+
+/* Футер */
+
+.footer {
+    position: absolute;
+    text-align: center;
+}
+
+.footer img {
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.footer a {
+    position: relative;
+    top: -35px;
+    padding: 0 40px;
+    color: #848484;
+    font: 400 16px / 26px HelveticaNeue;
+    text-decoration: none;
+    
 }
